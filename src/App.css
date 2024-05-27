@@ -218,7 +218,7 @@ body{
 
   @media only screen and (max-width:1024px) {
     .container {
-        width: 300px;
+        width: 260px;
         padding: 20px;
     }
 
