@@ -18,7 +18,7 @@ body{
 .container{
     width: 350px;
     padding: 20px;
-    background: linear-gradient(to top, #87cfebd6, #f0e68cd8);
+    background: linear-gradient(to top, #87cfebd6, #f0e68cd8) no-repeat;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0.1);
 }
@@ -162,3 +162,110 @@ body{
 }
 
 
+/* @media only screen and (max-width: 768px) {
+    .container {
+        width: 240px;
+        padding: 10px;
+    }
+
+    .cityInput{
+        height: 20px;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .search-icon{
+        padding: 05px;
+        height: 20px;
+    }
+
+    .search-icon>img{
+        margin-top: 0px;
+    }
+
+    .image{
+        margin: 5px 0px;
+        padding: 5px;
+        height: 100px;
+        margin-bottom: 5px;
+    }
+    
+    .image>img{
+        width: 110px;
+        height: 110px;
+    }
+
+    .temp,
+    .location,
+    .country{
+    margin-top: 3px;
+    font-size: 27px;
+    }
+
+    .time-section{
+        font-size: 12px;
+    }
+
+    .icon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .humidity-percent{
+        font-size: 14px;
+    }
+  } */
+
+  @media only screen and (max-width:1024px) {
+    .container {
+        width: 270px;
+        padding: 20px;
+    }
+
+    .cityInput{
+        height: 20px;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .search-icon{
+        padding: 05px;
+        height: 20px;
+    }
+
+    .search-icon>img{
+        margin-top: 0px;
+    }
+
+    .image{
+        margin: 5px 0px;
+        padding: 5px;
+        height: 100px;
+        margin-bottom: 5px;
+    }
+    
+    .image>img{
+        width: 110px;
+        height: 110px;
+    }
+
+    .temp,
+    .location,
+    .country{
+    margin-top: 3px;
+    font-size: 27px;
+    }
+
+    .time-section{
+        font-size: 12px;
+    }
+
+    .icon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .humidity-percent{
+        font-size: 14px;
+    }
+  }
